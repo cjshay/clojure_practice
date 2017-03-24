@@ -1,10 +1,10 @@
 (ns clojure-noob.core
   (:gen-class))
 
-; (defn -main
-;   "I don't do a whole lot ... yet."
-;   [& args]
-;   (println "I'm a little teapot!"))
+(defn -main
+  "I don't do a whole lot ... yet."
+  [& args]
+  (println "I'm a little teapot!"))
 ; (defn error-message
 ;   [severity]
 ;   (str "OH GOD! IT'S A DISASTER! WE'RE "
@@ -75,10 +75,10 @@
 ; => We're ignoring the rest of your choices. Here they are in case \
     ;  you need to cry over them: Pigpen, Aquaman
 
-(defn announce-treasure-location
-    [{lat :lat lng :lng}]
-  (println (str "latitude: " lat))
-  (println (str "longitude: " lng)))
+; (defn announce-treasure-location
+;     [{lat :lat lng :lng}]
+;   (println (str "latitude: " lat))
+;   (println (str "longitude: " lng)))
 
 ; (defn announce-treasure-location
 ;    [{lat :lat lng :lng}]

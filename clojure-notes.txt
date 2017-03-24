@@ -1,0 +1,11 @@
+JVM- Java virtual machine
+- clojure has some relationship with java. Does it compile to java? how
+are they connected? Using Java libraries in clojure.
+
+JVM
+- JVM processes execute Java bytecode.
+- Usually, the Java Compiler produces Java bytecode from Java source code.
+- JAR files are collections of Java bytecode.
+- Java programs are usually distributed as JAR files.
+- The Java program clojure.jar reads Clojure source code and produces Java bytecode.
+- That Java bytecode is then executed by the same JVM process already running clojure.jar.
